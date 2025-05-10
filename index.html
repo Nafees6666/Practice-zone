@@ -4,6 +4,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
  </head>
  <body>
+
+  <style> 
+        .subscribe-button {
+            background-color:#c90029;
+            color: white;
+            border:none;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left:16px;
+            padding-right:16px;
+            border-radius:2px;
+            cursor: pointer;
+            margin-right: 8px;
+            margin-left: 20px;
+            transition: opacity 0.15s;
+           
+        }
+        .subscribe-button:hover{
+            opacity:0.8;
+        }
+        .subscribe-button:active{
+            opacity:0.5;
+        }
+        .join-button {
+            background-color:white;
+            border-color:#2a96ff;
+            border-style:solid;
+            border-width:1px;
+            color:#2a96ff;
+            height:36px;
+            width:62px;
+            border-radius:5px;
+            cursor:pointer;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        
+        .join-button:hover{
+        background-color:#2a96ff;    
+        color:white;
+                }
+        .join-button:active{
+            opacity: 0.7;
+        }        
+        .tweet-button{
+            background-color:#2a96ff ;
+            color:white;
+            border:none;
+            height: 36px;
+            width: 74px;
+            border-radius: 18px;
+            font-weight:bold;
+            font-size:15px;
+            cursor:pointer;
+            margin-left: 8px;
+            transition: box-shadow 0.15s;
+            
+            
+        }
+        .tweet-button:hover{box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+            
+        }
+    </style>
+    <button class="subscribe-button">Subscribe</button>
+    <button class="join-button">Join</button>
+    <button class="tweet-button" >Tweet</button>
+  
    <table border="1" width="200" height="150">
        <tr> 
            <td rowspan="3">
